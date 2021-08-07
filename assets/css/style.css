@@ -1,1 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Oswald&display=swap');
+
+/* ----------------------------General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------Headings */
+
+h1, h2, h3 {
+    font-family: 'Medieval Sharp', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1C761E;
+}
