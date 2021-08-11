@@ -33,3 +33,9 @@ h1, h2, h3 {
     height: 100vh;
     position: relative;
 }
+
+/* ---------------------------------------------------Navbar */
+
+.nav-item a {
+    color: #1C761E;
+}
