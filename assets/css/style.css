@@ -36,6 +36,19 @@ h1, h2, h3 {
 
 /* ---------------------------------------------------Navbar */
 
+.navbar-light .navbar-brand {
+    color: #1C761E;
+    font-size: 25px;
+}
+
 .nav-item a {
     color: #1C761E;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #E39105;
+}
+
+.navbar-light .nav-link:focus, .navbar-light .nav-link:hover {
+    color: #E39105;
 }
