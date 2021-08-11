@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Quattrocento:wght@400;700&display=swap');
 
-/* ----------------------------General */
+/* ---------------------------------------------------------General */
 
 html {
     scroll-behavior: smooth;
@@ -14,12 +14,23 @@ body {
     padding: 0;
 }
 
-/* -----------------------------Headings */
+/* -------------------------------------------------------Headings */
 
 h1, h2, h3 {
-    font-family: 'Medieval Sharp', sans-serif;
-    font-size: 60px;
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 45px;
     font-weight: 600;
     text-transform: uppercase;
     color: #1C761E;
+}
+
+/* ---------------------------------------------------Hero-Image */
+
+#hero-image {
+    background: url('../images/hero-image/hero-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(66, 64, 64);
+    width: auto;
+    height: 100vh;
+    position: relative;
 }
