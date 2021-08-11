@@ -18,7 +18,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Quattrocento', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     color: #1C761E;
@@ -34,15 +34,34 @@ h1, h2, h3 {
     position: relative;
 }
 
+#hero-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #E39105;
+    text-align: center;
+    background: rgba(5, 142, 217, 0.75);
+}
+
 /* ---------------------------------------------------Navbar */
 
 .navbar-light .navbar-brand {
     color: #1C761E;
     font-size: 25px;
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: 600;
 }
 
 .nav-item a {
     color: #1C761E;
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: 600;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
