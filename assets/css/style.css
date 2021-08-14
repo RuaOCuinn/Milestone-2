@@ -33,7 +33,7 @@ h1, h2, h3 {
     height: 100vh;
     position: relative;
 }
-
+/*
 #hero-text {
     position: absolute;
     top: 35%;
@@ -45,9 +45,38 @@ h1, h2, h3 {
     flex-direction: column;
     width: 500px;
     color: #e37005;
+    background-color: rgba(241, 109, 107, .7);
     text-align: center;
 }
+*/
+#hero-text, #hero-text h2 {
+    color: rgba(227, 145, 5);
+}
 
+#hero-text, #hero-text h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#hero-text {
+    
+    font-family: 'Quattrocento', sans-serif;
+    letter-spacing: 4px;
+    width: 33%;
+    height: 30%;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(28, 118, 30, .7);
+    top: 30%;
+    left: 15%;
+    position: absolute;
+
+    display: table;
+    margin: 0px auto 0px auto;
+    
+}
+/*
 #hero-text h2 {
     background-color: rgba(227, 232, 235, 0.75);
     margin-bottom: 0px;
@@ -58,7 +87,7 @@ h1, h2, h3 {
     background-color: rgba(227, 232, 235, 0.75);
     border-radius: 10px;
 }
-
+*/
 @media screen and (max-width: 767px) {
 
     #hero-text {
