@@ -26,6 +26,8 @@ h1, h2, h3 {
 
 /* ---------------------------------------------------Hero-Image */
 
+
+
 #hero-image {
     background: url('../images/hero-image/hero-image.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -56,6 +58,7 @@ h1, h2, h3 {
 #hero-text, #hero-text h3 {
     color: #ffffff;
     font-size: 25px;
+    font-weight: 400;
 }
 
 #hero-text {
@@ -74,38 +77,8 @@ h1, h2, h3 {
 
     display: table;
     margin: 0px auto 0px auto;
-    
+
 }
-/*
-#hero-text h2 {
-    background-color: rgba(227, 232, 235, 0.75);
-    margin-bottom: 0px;
-    border-radius: 10px;
-}
-
-#hero-text p {
-    background-color: rgba(227, 232, 235, 0.75);
-    border-radius: 10px;
-}
-*/
-@media screen and (max-width: 767px) {
-
-    #hero-text {
-        border-radius: 7px;
-        width: 400px;
-    }
-
-    #hero-text p {
-        font-size: 20px;
-        letter-spacing: 1.5px;
-    }
-
-    #hero-text h2 {
-        font-size: 30px;
-    }
-}
-
-/* ---------------------------------------------------Navbar */
 
 .navbar-light .navbar-brand {
     color: #1C761E;
@@ -127,3 +100,62 @@ h1, h2, h3 {
 .navbar-light .nav-link:focus, .navbar-light .nav-link:hover {
     color: #E39105;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+
+    #hero-text {
+        width: 50%;
+        height: 28%;
+        padding-top: 20px;
+        padding-left: 10px;
+        border-radius: 7px;
+        top: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .navbar-light .navbar-brand {
+        color: #1C761E;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    body {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    h1, h2, h3 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #1C761E;
+    }
+
+    #hero-text {
+        width: 50%;
+        height: 33%;
+        padding-top: 20px;
+        padding-left: 10px;
+        border-radius: 7px;
+        top: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    #hero-text p {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    #hero-text h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+/* ---------------------------------------------------Navbar */
