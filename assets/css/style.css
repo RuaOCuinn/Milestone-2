@@ -35,22 +35,7 @@ h1, h2, h3 {
     height: 100vh;
     position: relative;
 }
-/*
-#hero-text {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 45px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    color: #e37005;
-    background-color: rgba(241, 109, 107, .7);
-    text-align: center;
-}
-*/
+
 #hero-text, #hero-text h2 {
     color: rgba(227, 145, 5);
 }
@@ -103,7 +88,42 @@ h1, h2, h3 {
     color: #E39105;
 }
 
+/* ---------------------------------------------------Sites Section */
 
+.sites {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site {
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.site-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.site h2 {
+    align-content: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+
+
+/* ---------------------------------------------------Media Queries */
 
 @media screen and (max-width: 1200px) {
 
