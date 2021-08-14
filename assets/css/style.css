@@ -90,9 +90,55 @@ h1, h2, h3 {
 
 /* ---------------------------------------------------Sites Section */
 
+  #sites-heading {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      text-transform: none;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .row {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .site-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+}
+
+  .site h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: none;
+    
+    color: #E39105;
+    padding-bottom: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*
 .sites {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
 }
 
 .site {
@@ -108,7 +154,6 @@ h1, h2, h3 {
     height: auto;
     margin: 0;
     object-fit: cover;
-    opacity: 0.9;
 }
 
 .site h2 {
@@ -120,7 +165,7 @@ h1, h2, h3 {
     color: #fff;
     padding-bottom: 40px;
 }
-
+*/
 
 
 /* ---------------------------------------------------Media Queries */
