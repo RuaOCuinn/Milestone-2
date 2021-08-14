@@ -70,7 +70,7 @@ h1, h2, h3 {
     padding-top: 20px;
     padding-left: 10px;
     border-radius: 10px;
-    background-color: rgba(28, 118, 30, .7);
+    background-color: rgba(28, 118, 30, .8);
     top: 30%;
     left: 15%;
     position: absolute;
@@ -79,6 +79,8 @@ h1, h2, h3 {
     margin: 0px auto 0px auto;
 
 }
+
+/* ---------------------------------------------------Navbar */
 
 .navbar-light .navbar-brand {
     color: #1C761E;
@@ -145,17 +147,60 @@ h1, h2, h3 {
         left: 25%;
         position: absolute;
     }
+}
 
-    #hero-text p {
-        font-size: 20px;
-        letter-spacing: 1.5px;
+@media screen and (max-width: 560px) {
+
+    #hero-text {
+        width: 60%;
+        height: 33%;
+        padding-top: 20px;
+        padding-left: 10px;
+        border-radius: 7px;
+        top: 20%;
+        left: 20%;
+        position: absolute;
     }
 
-    #hero-text h2 {
-        font-size: 30px;
+    h1, h2, h3 {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
     }
+
+    #hero-text, #hero-text h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: none;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
 
-/* ---------------------------------------------------Navbar */
+    #hero-text {
+        width: 60%;
+        height: 33%;
+        padding-top: 20px;
+        padding-left: 10px;
+        border-radius: 7px;
+        top: 20%;
+        left: 20%;
+        position: absolute;
+    }
+
+    h1, h2, h3 {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    #hero-text, #hero-text h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: none;
+    }
+
+}
