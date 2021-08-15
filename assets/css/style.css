@@ -195,6 +195,18 @@ h1, h2, h3 {
         align-items: center;
     }
 
+    .footer-center ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .social-links-footer i {
         display: flex;
         align-items: center;
@@ -226,18 +238,22 @@ h1, h2, h3 {
         justify-content: center;
     }
 
+    .host p {
+        color: #ffffff;
+    }
+
     .host-link {
         display: flex;
         justify-content: center;
     }
 
     .host a {
-        color: #85898c;
+        color: #ffffff;
         text-decoration: underline;
     }
 
     .host a:hover {
-        color: rgba(255,255,255,.75);
+        color: #E39105
     }
 
 /* ---------------------------------------------------Media Queries */
