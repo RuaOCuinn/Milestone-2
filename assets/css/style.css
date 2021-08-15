@@ -133,10 +133,27 @@ h1, h2, h3 {
     justify-content: center;
     align-content: center;
     text-transform: none;
-    
+    position: relative;
+    bottom: 15%;
     color: #1C761E;
-    padding-top: 10px;
+    padding: 2px;
+
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+
+    display: table;
+    margin: 0px auto 0px auto;
 }
+/*
+.site h2 {
+    align-content: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding-bottom: 40px;
+} */
 
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     color: #E39105
