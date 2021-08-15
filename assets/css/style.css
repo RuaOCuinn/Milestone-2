@@ -144,16 +144,6 @@ h1, h2, h3 {
     display: table;
     margin: 0px auto 0px auto;
 }
-/*
-.site h2 {
-    align-content: center;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    padding-bottom: 40px;
-} */
 
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     color: #E39105
@@ -162,39 +152,6 @@ h1, h2, h3 {
 a:hover {
     text-decoration: none;
 }
-
-/*
-.sites {
-    display: flex;
-    justify-content: left;
-}
-
-.site {
-    background: black;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-    border: 0;
-}
-
-.site-img {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    object-fit: cover;
-}
-
-.site h2 {
-    align-content: center;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    padding-bottom: 40px;
-}
-*/
-
 
 /* ---------------------------------------------------Media Queries */
 
@@ -284,6 +241,12 @@ a:hover {
 
 }
 
+    .site h2 {
+        bottom: 17%;
+        padding: 1px;
+        border-radius: 3px;
+    }
+
 @media screen and (max-width: 420px) {
 
     #hero-text {
@@ -308,6 +271,13 @@ a:hover {
         font-size: 22px;
         font-weight: 400;
         text-transform: none;
+    }
+
+    .site h2 {
+        bottom: 19%;
+        padding: 1px;
+        border-radius: 3px;
+        font-size: 18px;
     }
 
 }
