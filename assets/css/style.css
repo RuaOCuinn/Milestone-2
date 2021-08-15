@@ -49,7 +49,6 @@ h1, h2, h3 {
     font-family: 'Quattrocento', sans-serif;
     letter-spacing: 4px;
     width: 33%;
-    height: 30%;
     padding-top: 20px;
     padding-left: 10px;
     border-radius: 10px;
@@ -136,7 +135,7 @@ h1, h2, h3 {
     position: relative;
     bottom: 15%;
     color: #1C761E;
-    padding: 2px;
+    padding: 1px 3px 0px 3px;
 
     background-color: rgba(255, 255, 255, .8);
     border-radius: 5px;
@@ -145,13 +144,101 @@ h1, h2, h3 {
     margin: 0px auto 0px auto;
 }
 
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    color: #E39105
-}
+    .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+        color: #E39105
+    }
 
-a:hover {
-    text-decoration: none;
-}
+    a:hover {
+        text-decoration: none;
+    }
+
+/* ---------------------------------------------------Footer Section */
+
+/* Due to limited time the majority of my Footer section was taken from my Milestone 1 Project. */
+
+    footer {
+        width: 100%;
+        margin: 0px;
+        height: auto;
+        background-color: rgba(28, 118, 30, .9);
+    }
+
+    footer a:hover {
+        color: #E39105;
+        text-decoration: none;
+    }
+
+    .footer-left {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .policy {
+        color: #1C761E;
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 0 2px 0 3px;
+        background-size: 6px 12px;
+    }
+
+    .rights {
+        font-size: 70%;
+        color: #ffffff;
+    }
+
+    .footer-center {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-links-footer i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-links-footer li a i {
+        width: 30px;
+        height: 30px;
+        padding: 15px 20px;
+        font-size: 120%;
+        border-radius: 50%;
+        color: #ffffff;
+    }
+
+    .social-links-footer li a i:hover {
+        color:#E39105;
+    }
+
+    .footer-right {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .host {
+        display: flex;
+        justify-content: center;
+    }
+
+    .host-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .host a {
+        color: #85898c;
+        text-decoration: underline;
+    }
+
+    .host a:hover {
+        color: rgba(255,255,255,.75);
+    }
 
 /* ---------------------------------------------------Media Queries */
 
@@ -204,14 +291,26 @@ a:hover {
         left: 25%;
         position: absolute;
     }
-}
 
     #hero-text, #hero-text h3 {
         color: #ffffff;
-        font-size: 22px;
+        font-size: 21px;
         font-weight: 400;
         text-transform: none;
     }
+
+    .footer-left {
+        margin-top: 10px;
+    }
+
+    .footer-center {
+        margin-top: 10px;
+    }
+
+    .footer-right {
+        margin-top: 10px;
+    }
+}
 
 @media screen and (max-width: 560px) {
 
@@ -234,18 +333,17 @@ a:hover {
 
     #hero-text, #hero-text h3 {
         color: #ffffff;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
         text-transform: none;
     }
 
-}
-
     .site h2 {
         bottom: 17%;
-        padding: 1px;
         border-radius: 3px;
     }
+
+}
 
 @media screen and (max-width: 420px) {
 
@@ -268,14 +366,13 @@ a:hover {
 
     #hero-text, #hero-text h3 {
         color: #ffffff;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
         text-transform: none;
     }
 
     .site h2 {
         bottom: 19%;
-        padding: 1px;
         border-radius: 3px;
         font-size: 18px;
     }
