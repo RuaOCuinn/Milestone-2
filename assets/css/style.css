@@ -26,8 +26,6 @@ h1, h2, h3 {
 
 /* ---------------------------------------------------Hero-Image */
 
-
-
 #hero-image {
     background: url('../images/hero-image/hero-image.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -65,6 +63,13 @@ h1, h2, h3 {
 
 }
 
+    #hero-text, #hero-text h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: none;
+    }
+
 /* ---------------------------------------------------Navbar */
 
 .navbar-light .navbar-brand {
@@ -95,6 +100,7 @@ h1, h2, h3 {
       justify-content: center;
       padding-top: 10px;
       text-transform: none;
+      
   }
 
   .column {
@@ -119,6 +125,7 @@ h1, h2, h3 {
     height: auto;
     margin: 0;
     object-fit: cover;
+    border-radius: 7px;
 }
 
   .site h2 {
@@ -127,8 +134,12 @@ h1, h2, h3 {
     align-content: center;
     text-transform: none;
     
-    color: #E39105;
-    padding-bottom: 40px;
+    color: #1C761E;
+    padding-top: 10px;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    color: #E39105
 }
 
 a:hover {
@@ -188,6 +199,13 @@ a:hover {
     }
 }
 
+    #hero-text, #hero-text h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: none;
+    }
+
 @media screen and (max-width: 769px) {
 
     body {
@@ -213,6 +231,13 @@ a:hover {
         position: absolute;
     }
 }
+
+    #hero-text, #hero-text h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: none;
+    }
 
 @media screen and (max-width: 560px) {
 
