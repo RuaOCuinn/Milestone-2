@@ -108,6 +108,22 @@ h1, h2, h3 {
     padding: 5px;
   }
 
+  #column1 {
+    padding-right: 20px;
+  }
+
+  #column2 {
+    padding-left: 20px;
+  }
+
+  #column3 {
+    padding-right: 20px;
+  }
+
+  #column4 {
+    padding-left: 20px;
+  }
+
   .row {
     margin-right: 15px;
     margin-left: 15px;
@@ -154,7 +170,7 @@ h1, h2, h3 {
 
 /* ---------------------------------------------------Footer Section */
 
-/* Due to limited time the majority of my Footer section was taken from my Milestone 1 Project. */
+/* Due to limited time much of my Footer section was taken and adjusted from my Milestone 1 Project. */
 
     footer {
         width: 100%;
@@ -355,6 +371,22 @@ h1, h2, h3 {
         text-transform: none;
     }
 
+    #column1 {
+        padding-right: 15px;
+      }
+    
+    #column2 {
+        padding-left: 15px;
+      }
+    
+    #column3 {
+        padding-right: 15px;
+      }
+    
+    #column4 {
+        padding-left: 15px;
+      }
+
     .site h2 {
         bottom: 17%;
         border-radius: 3px;
@@ -386,6 +418,27 @@ h1, h2, h3 {
         font-size: 20px;
         font-weight: 400;
         text-transform: none;
+    }
+
+    #column1 {
+        padding-right: 15px;
+      }
+    
+    #column2 {
+        padding-left: 15px;
+      }
+    
+    #column3 {
+        padding-right: 15px;
+      }
+    
+    #column4 {
+        padding-left: 15px;
+      }
+
+    .site h2 {
+        bottom: 17%;
+        border-radius: 3px;
     }
 
     .site h2 {
