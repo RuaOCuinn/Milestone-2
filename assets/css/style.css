@@ -262,13 +262,15 @@ h1, h2, h3 {
 
     #hero-text {
         width: 50%;
-        height: 28%;
         padding-top: 20px;
         padding-left: 10px;
         border-radius: 7px;
         top: 30%;
         left: 25%;
         position: absolute;
+
+        display: table;
+        margin: 0px auto 0px auto;
     }
 
     .navbar-light .navbar-brand {
@@ -299,13 +301,15 @@ h1, h2, h3 {
 
     #hero-text {
         width: 50%;
-        height: 33%;
         padding-top: 20px;
         padding-left: 10px;
         border-radius: 7px;
         top: 30%;
         left: 25%;
         position: absolute;
+
+        display: table;
+        margin: 0px auto 0px auto;
     }
 
     #hero-text, #hero-text h3 {
@@ -372,6 +376,9 @@ h1, h2, h3 {
         top: 20%;
         left: 20%;
         position: absolute;
+
+        display: table;
+        margin: 0px auto 0px auto;
     }
 
     h1, h2, h3 {
