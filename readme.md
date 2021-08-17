@@ -46,3 +46,12 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 * As a user I want to be to follow the website through social media to easily keep up to date on any new attractions added or functions added to the website.
 * As a user I want to be able to navigate the site easily whether accessing through my mobile or laptop.
 * As a user I want to be able to get in touch to ask questions about the attractions and their surrounding areas.
+
+### Design
+
+- ####    Colour Scheme
+    - The colours used for the website were chosen for the colours of the Irish flag. Colours of Green, White and Orange. The colours will hopefully put the users of the site in the mood to become immersed in all things Irish, whether that be foreign tourists or Irish people looking to discover more about their roots.
+
+    Colours Used are 
+
+        <img src="./assets/images/readme-images/green-white-orange.png" height="40px" />
