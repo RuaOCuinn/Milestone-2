@@ -54,4 +54,4 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 
     Colours Used are 
 
-        <img src="./assets/images/readme-images/green-white-orange.png" height="40px" />
+        <img src="/workspace/Milestone-2/assets/images/readme-images/green-white-orange.png" height="40px" />
