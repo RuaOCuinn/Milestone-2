@@ -54,4 +54,16 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 
     Colours Used are 
 
-        <img src="/workspace/Milestone-2/assets/images/readme-images/green-white-orange.png" height="40px" />
+        <img src="assets/images/readme-images/green-white-orange.png" height="40px" />
+
+- ####    Typography
+    - The main font I have chosen is 'Oswald' as it is easy to read and stands out. I will use sans-serif as a backup font.
+
+    - The secondary font used is 'Quattrocento' to help headings and titles to stand out from the rest of the text and to give the headings a scriptive look.
+
+- ####    Images
+    - The main use of images for this website will be the ones used to depict the locations. (https://www.pexels.com/)
+
+    - For the hero-image I have chosen the image of a castle atop an overgrown hill in the foreground with the open sea taking up the background. This will hopefully ignite in the user a feeling of openess and adventure.
+
+    - Other images constist of small icon images taken from (https://fontawesome.com/v4.7/) to represent the social media links.
