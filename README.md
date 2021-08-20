@@ -52,9 +52,7 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 - ####    Colour Scheme
     - The colours used for the website were chosen for the colours of the Irish flag. Colours of Green, White and Orange. The colours will hopefully put the users of the site in the mood to become immersed in all things Irish, whether that be foreign tourists or Irish people looking to discover more about their roots.
 
-    Colours Used are 
-
-        <img src="assets/images/readme-images/green-white-orange.png" height="40px" />
+    <img src="assets/images/readme-images/green-white-orange.png" height="40px" />
 
 - ####    Typography
     - The main font I have chosen is 'Oswald' as it is easy to read and stands out. I will use sans-serif as a backup font.
@@ -62,8 +60,13 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
     - The secondary font used is 'Quattrocento' to help headings and titles to stand out from the rest of the text and to give the headings a scriptive look.
 
 - ####    Images
-    - The main use of images for this website will be the ones used to depict the locations. (https://www.pexels.com/)
+    - The main use of images for this website will be the ones used to depict the locations. (https://unsplash.com)
 
-    - For the hero-image I have chosen the image of a castle atop an overgrown hill in the foreground with the open sea taking up the background. This will hopefully ignite in the user a feeling of openess and adventure.
+    - For the hero-image I have chosen the image of a castle atop an overgrown hill in the foreground, with the open sea taking up the background. This will hopefully ignite in the user a feeling of openess and adventure.
 
     - Other images constist of small icon images taken from (https://fontawesome.com/v4.7/) to represent the social media links.
+
+- ####    Wireframes
+    - All wireframes were made using MockFlow.com. I have left up my original wireframes to show how the project changed shape as I worked through it.
+
+        <img src="./assets/images/readme-images/wireframe.png"  />
