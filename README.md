@@ -69,7 +69,7 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 - ####    Wireframes
     - All wireframes were made using MockFlow.com. I have left up my original wireframes to show how the project changed shape as I worked through it.
 
-        <img src="./assets/images/readme-images/wireframe.png" />
+        <img src="/workspace/Milestone-2/assets/images/readme-images/wireframe.png" />
 
 <a name="features"></a>
 ## Features
