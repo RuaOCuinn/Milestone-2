@@ -33,11 +33,11 @@ function initMap() {
 
  /* function pullGiantsCauseway() {
       var map = new google.maps.Map(document.getElementById(""))
-  } */
+  } 
 
   $(document).ready(function(){
     $("#giants-causeway").live('click',function(){
         var pos = new google.maps.LatLng( 55.240833, -6.511667);
         map.setCenter(pos);
     });
-});
+}); */

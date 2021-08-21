@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5 {
     height: auto;
     margin: 0;
     object-fit: cover;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
   .site h2 {
@@ -154,9 +154,9 @@ h1, h2, h3, h4, h5 {
     bottom: 15%;
     color: #1C761E;
     padding: 1px 3px 0px 3px;
+    font-size: 2.6rem;
 
     background-color: rgba(255, 255, 255, .8);
-    border-radius: 5px;
 
     display: table;
     margin: 0px auto 0px auto;

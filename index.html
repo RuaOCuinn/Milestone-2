@@ -12,7 +12,17 @@
      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" /> 
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_9W3XYcvOy8rDZMQ4tG4v7");
+        })();
+    </script>
+
     <title>Ireland's Sites of Myth</title>
 </head>
 <body>
@@ -108,7 +118,7 @@
                 <h5 id="questions-heading">Any Questions?</h5>
                 
                 <div>
-                    <form class="center-form">
+                    <form class="center-form" onsubmit="return sendMail(this);" method="POST">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
                         <textarea rows ="4" name="contact" id="contact" class="form-control" placeholder="Queries.." required></textarea>
@@ -178,5 +188,6 @@
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmxkVSb216IrPd4v2w1-TO-bvQciBJpdg&callback=initMap"></script>
     <script src ="assets/js/maps.js"></script>
+    <script src ="assets/js/sendEmail.js"></script>
 </body>
 </html>
