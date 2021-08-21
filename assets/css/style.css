@@ -18,7 +18,7 @@ div#map {min-height: 360px;}
 
 /* -------------------------------------------------------Headings */
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: 'Quattrocento', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -169,6 +169,14 @@ h1, h2, h3 {
     a:hover {
         text-decoration: none;
     }
+
+    
+/* ---------------------------------------------------Contact Section */
+#contact-heading {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 /* ---------------------------------------------------Footer Section */
 
