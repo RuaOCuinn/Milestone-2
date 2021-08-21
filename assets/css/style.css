@@ -172,10 +172,23 @@ h1, h2, h3, h4, h5 {
 
     
 /* ---------------------------------------------------Contact Section */
-#contact-heading {
+#questions-heading {
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn-secondary {
+    background-color: #1C761E;
+    margin: 10px;
 }
 
 /* ---------------------------------------------------Footer Section */
