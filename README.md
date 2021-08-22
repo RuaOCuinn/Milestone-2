@@ -134,3 +134,35 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 - #### Contact Form
     - The contact form has been tested on several screen sizes and is in working order.
     - Each input field makes use of the 'required' attribute and once each field is filled in the form successfully send.
+
+## Deployment
+
+### Publishing
+This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below.
+1. Go to the GitHub website and log in.
+2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RuaOCuinn/MilestoneOne) used for this project).
+3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
+4. Scroll down and click on the 'Pages' tab on the left-hand side.
+Under the 'Source' click on the dropdown and select 'master branch' and click save.
+5. A link to your published page then appears above the source option.
+
+<a name="credits"></a>
+## Credits
+
+* [pexels](https://pexels.com/) - images for locations.
+*([unsplash]https://unsplash.com/) - images for locations.
+* [fontawesome](https://fontawesome.com/) - used for social media icons.
+* [Mockflow](https://mockflow.com/) - used to create wireframes at the beginning of the project.
+
+### Content
+
+*   All content was written by the developer.
+
+### Media
+* Animated mock profile image of Oscar Pearson provided by (https://dribbble.com/Setya182)
+* Parchment hero-image and book cover for Bloodstone: Book Two on the 'Books' page provided by pixabay.com at (https://www.pexels.com/@pixabay)
+* Book cover for Bloodstone: Book Three on the main landing page is by (https://www.pexels.com/@pedro-figueras-202443)
+* Book cover for Confused Worship on the 'Books' page provided by (https://www.pexels.com/@monatrms)
+
+### Acknowledgements
+* I would like to Acknowledge Maranatha Ilesanmi for all his advice and support through our mentor meetings
