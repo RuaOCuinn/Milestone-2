@@ -10,9 +10,9 @@ It will serve to provide background information on each mythical location as wel
 
 ## Deployment
 
-A link to the website can be found [#]
+A link to the website can be found [https://ruaocuinn.github.io/Milestone-2/]
 
-<img src="#/>
+<img src="assets/images/readme-images/landing-page.png" />
 
 ## Table of Contents
 
@@ -140,7 +140,7 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 ### Publishing
 This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below.
 1. Go to the GitHub website and log in.
-2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RuaOCuinn/MilestoneOne) used for this project).
+2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RuaOCuinn/Milestone-2) used for this project).
 3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
 4. Scroll down and click on the 'Pages' tab on the left-hand side.
 Under the 'Source' click on the dropdown and select 'master branch' and click save.
