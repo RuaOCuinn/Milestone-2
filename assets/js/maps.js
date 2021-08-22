@@ -1,11 +1,11 @@
 // following code taken from Google Maps API Marker Accessibility documentation
 function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
+    var map = new google.maps.Map(document.getElementById("map"), {
       zoom: 6,
       center: { lat: 53.41291, lng: -8.24389 },
     });
   
-    const locations = [
+    var locations = [
         [{ lat: 55.240833, lng: -6.511667 }, "Giants Causeway"],
         [{ lat: 53.579722, lng: -6.611944 }, "Hill of Tara"],
         [{ lat: 53.694712, lng: -6.475492 }, "Newgrange"],
@@ -14,15 +14,13 @@ function initMap() {
    
     const infoWindow = new google.maps.InfoWindow();
    
-    locations.forEach(([position, title], i) => {
+    locations.forEach(([position, title],) => {
       const marker = new google.maps.Marker({
         position,
         map,
-        title: `${i + 1}. ${title}`,
-        label: `${i + 1}`,
+        title: `${title}`,
         optimized: false,
       });
-
       marker.addListener("click", () => {
         infoWindow.close();
         infoWindow.setContent(marker.getTitle());
@@ -31,13 +29,25 @@ function initMap() {
     });
   }
 
- /* function pullGiantsCauseway() {
-      var map = new google.maps.Map(document.getElementById(""))
-  } 
-
-  $(document).ready(function(){
-    $("#giants-causeway").live('click',function(){
-        var pos = new google.maps.LatLng( 55.240833, -6.511667);
-        map.setCenter(pos);
+  function callGiantsCauseway() {
+    var map = new google.maps.Map(document.getElementById("column1"), {
+      zoom: 10,
+      center: { lat: 55.240833, lng: -6.511667 },
     });
-}); */
+
+    var infoWindow = new google.maps.InfoWindow();
+    locations.forEach(([position, title],) => {
+      const marker = new google.maps.Marker({
+        position,
+        map,
+        title: `${title}`,
+        optimized: false,
+      });
+      marker.addListener("click", () => {
+        infoWindow.close();
+        infoWindow.setContent(marker.getTitle());
+        infoWindow.open(marker.getMap(), marker);
+      });
+    });
+
+  }

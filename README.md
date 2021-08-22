@@ -69,7 +69,7 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 - ####    Wireframes
     - All wireframes were made using MockFlow.com. I have left up my original wireframes to show how the project changed shape as I worked through it.
 
-        <img src="/workspace/Milestone-2/assets/images/readme-images/wireframe.png" />
+        <img src="assets/images/readme-images/wireframe.png" />
 
 <a name="features"></a>
 ## Features
@@ -84,16 +84,17 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
     - The social media images will also change an orange colour (#E39105) when hovered over.
 * Hero-image
     - For the hero-image I have chosen the image of a castle atop an overgrown hill in the foreground, with the open sea taking up the background. This will hopefully ignite in the user a feeling of openess and adventure.
+* Map
+    - The map feature indicates where each mythical location is within Ireland, with the locations name appearing when its marker is hovered over.
+* Contact
+    - The contact page provides a simples to use and understand form requesting basic information from any users who wish to get into contact with the Author.
 * Footer
     - The footer has been designed to look a bit plainer when compared to the rest of the webpage as I want the rest of the page to stand out.
     - The social media links take center stage of the footer to encourage the user to follow any changes to the site on social media.
 
-### Specific Features
-
-*
-
 ### Prospective Features
--   
+-   I would like to make the map more interactive by being able to click on the images to zoom into their exact location on the map.
+-   I would also look to add more locations and also other interesting sights and activities around the main locations.
 
 ### Languages Used
 
@@ -113,3 +114,23 @@ It is aimed at people wanting to travel all over Ireland to visit it's oldest an
 * [Paint 3D] - Microsoft app Paint 3D was used to edit some of the images for the book covers.
 * [jquery v3.5.1](https://getbootstrap.com/) - retrieved from a bootstrap example to assist with my navigation toggler.
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) for constant debugging and checking of features.
+
+## Testing
+
+### Google Chrome DevTools
+-   Much of my testing was done with dev tools on google chrome throughout the coding process - and fault finding on each specific screen size starting from the smallest screen first and working my way up to my largest screen.
+-   During testing and the making of the site I regularly used the element.style box to test out different styling ideas before implementing them into the permanent code.
+-   I ran both mobile and desktop through DevTools Lighthouse project:
+    - Mobile
+    <img src="./assets/images/readme-images/lighthouse-mobile.png" />
+
+    - Desktop
+    <img src="./assets/images/readme-images/lighthouse-desktop.png" />
+
+### Functionality Testing
+- #### Internal & External links
+    - All links are working and have been tested on several screen sizes.
+    - The hamburger menu appears on screen sizes smaller than 992px. When clicked, it expands to reveal page links. These have been tested and are working as expected on several screen sizes.
+- #### Contact Form
+    - The contact form has been tested on several screen sizes and is in working order.
+    - Each input field makes use of the 'required' attribute and once each field is filled in the form successfully send.
